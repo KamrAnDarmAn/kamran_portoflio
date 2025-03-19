@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Graduated from Institute of Computer Science",
+    title: "Graduated from Institute of Computer Science",
     location: "Khost, Afghanistan",
     description:
       "I completed a 2-year program in Computer Science, specializing in databases, including MySQL, SQL Server, and PL/SQL.",
