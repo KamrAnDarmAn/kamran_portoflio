@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
        <b className="italic">Computer science</b> has been my passion since childhood. From an early age, 
         I was fascinated by technology and problem-solving, which led me to pursue programming as a career. 
-        I enrolled in a coding bootcamp and learned full-stack web development. I enrolled in a coding bootcamp and learned{" "}
+        I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
