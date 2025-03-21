@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolioAppImg from "@/public/porto.png";
 import socialmediaAppImg from "@/public/social.png";
 import blogAppImg from "@/public/blog.png";
-import { PiTreeStructureBold } from "react-icons/pi";
+import { PiTreeStructure } from "react-icons/pi";
 
 
 export const links = [
@@ -49,7 +49,7 @@ export const experiencesData = [
     location: "Online (Udemy, YouTube)",
     description:
       "I am currently focused on Data Structures and Algorithms (DSA), continuously improving my problem-solving skills and deepening my understanding of algorithms. My goal is to strengthen my knowledge for real-world applications and prepare for software engineering roles.",
-    icon: React.createElement(PiTreeStructureBold),
+    icon: React.createElement(PiTreeStructure),
     date: "2024 - Present",
   },
   {
