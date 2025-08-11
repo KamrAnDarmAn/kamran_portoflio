@@ -5,6 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolioAppImg from "@/public/porto.png";
 import socialmediaAppImg from "@/public/social.png";
 import blogAppImg from "@/public/blog.png";
+import sniprAppImg from "@/public/snipr.png";
+import { PiGraphFill } from "react-icons/pi";
+
+import { PiTreeStructureBold } from "react-icons/pi";
 
 export const links = [
   {
@@ -40,14 +44,14 @@ export const experiencesData = [
     description:
       "I completed a 2-year program in Computer Science, specializing in databases, including MySQL, SQL Server, and PL/SQL.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    date: "2022 - 2024",
   },
   {
     title: "DSA Enthusiast & Problem Solver",
     location: "Online (Udemy, YouTube)",
     description:
       "I am currently focused on Data Structures and Algorithms (DSA), continuously improving my problem-solving skills and deepening my understanding of algorithms. My goal is to strengthen my knowledge for real-world applications and prepare for software engineering roles.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(PiTreeStructureBold),
     date: "2024 - Present",
   },
   {
@@ -60,7 +64,6 @@ export const experiencesData = [
   },
 ] as const;
 
-
 export const projectsData = [
   {
     // title: "CorpComment",
@@ -72,8 +75,7 @@ export const projectsData = [
     description:
       "I built a full-stack blog application where users can create, edit, and delete blog posts. The app includes user authentication and a simple commenting system.",
     tags: ["React", "Next.js", "Prisma", "MySQL", "Tailwind"],
-    imageUrl:blogAppImg,
-
+    imageUrl: blogAppImg,
   },
   {
     title: "Social Media App",
@@ -87,7 +89,14 @@ export const projectsData = [
     description:
       "I created a personal portfolio app to showcase my skills, projects, and resume. The app features an interactive UI and integrates with a contact form.",
     tags: ["React", "Next.js", "Prisma", "Tailwind"],
-    imageUrl:portfolioAppImg,
+    imageUrl: portfolioAppImg,
+  },
+  {
+    title: "URL Shortener",
+    description:
+      "Snipr – Open-source URL shortener with QR code generation, built with Node.js, Express, Prisma, and MySQL. 🚀 Fork, improve, and contribute to make link sharing faster and smarter!",
+    tags: ["React", "Prisma", "Tailwind", "MySQL"],
+    imageUrl: sniprAppImg,
   },
 ] as const;
 
