@@ -6,6 +6,7 @@ import portfolioAppImg from "@/public/porto.png";
 import socialmediaAppImg from "@/public/social.png";
 import blogAppImg from "@/public/blog.png";
 import { PiTreeStructure } from "react-icons/pi";
+import UrlShortenerAppImg from "@/public/snipr.png";
 
 
 export const links = [
@@ -83,6 +84,13 @@ export const projectsData = [
       "I developed a social media application where users can post updates, like, and comment on posts. It includes features like user profiles, a news feed, and direct messaging.",
     tags: ["React", "Next.js", "Prisma", "SQL Server", "Tailwind"],
     imageUrl: socialmediaAppImg,
+  },
+  {
+    title: "URL SHORTENER",
+    description:
+      "Snipr – Open-source URL shortener with QR code generation, built with Node.js, Express, Prisma, and MySQL. 🚀 Fork, improve, and contribute to make link sharing faster and smarter!",
+    tags: ["React", "Prisma", "SQL", "Tailwind", "QR-Code"],
+    imageUrl: UrlShortenerAppImg,
   },
   {
     title: "Portfolio App",
