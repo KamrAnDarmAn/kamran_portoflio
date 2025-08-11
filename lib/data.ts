@@ -5,16 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import portfolioAppImg from "@/public/porto.png";
 import socialmediaAppImg from "@/public/social.png";
 import blogAppImg from "@/public/blog.png";
-<<<<<<< HEAD
 import sniprAppImg from "@/public/snipr.png";
 import { PiGraphFill } from "react-icons/pi";
 
 import { PiTreeStructureBold } from "react-icons/pi";
-=======
-import { PiTreeStructure } from "react-icons/pi";
-import UrlShortenerAppImg from "@/public/snipr.png";
-
->>>>>>> 8a85a95709b35d7e7f4f2b8122954e0f1517d99d
 
 export const links = [
   {
@@ -57,11 +51,7 @@ export const experiencesData = [
     location: "Online (Udemy, YouTube)",
     description:
       "I am currently focused on Data Structures and Algorithms (DSA), continuously improving my problem-solving skills and deepening my understanding of algorithms. My goal is to strengthen my knowledge for real-world applications and prepare for software engineering roles.",
-<<<<<<< HEAD
     icon: React.createElement(PiTreeStructureBold),
-=======
-    icon: React.createElement(PiTreeStructure),
->>>>>>> 8a85a95709b35d7e7f4f2b8122954e0f1517d99d
     date: "2024 - Present",
   },
   {
@@ -94,13 +84,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "Prisma", "SQL Server", "Tailwind"],
     imageUrl: socialmediaAppImg,
   },
-  {
-    title: "URL SHORTENER",
-    description:
-      "Snipr – Open-source URL shortener with QR code generation, built with Node.js, Express, Prisma, and MySQL. 🚀 Fork, improve, and contribute to make link sharing faster and smarter!",
-    tags: ["React", "Prisma", "SQL", "Tailwind", "QR-Code"],
-    imageUrl: UrlShortenerAppImg,
-  },
+
   {
     title: "Portfolio App",
     description:
