@@ -8,6 +8,16 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
+export const metadata: Metadata = {
+  verification: {
+    google: 'xkla1WnOFno1GH9SXQ7DT5in9xXEPZMyzZCGhqk6Vcg',
+  },
+};
+
+/*
+<meta name="google-site-verification" content="xkla1WnOFno1GH9SXQ7DT5in9xXEPZMyzZCGhqk6Vcg" />
+*/
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
